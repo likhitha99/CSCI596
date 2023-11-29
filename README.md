@@ -52,8 +52,6 @@ Results of the benchmarking study will be made available in the 'results' direct
 
 - [Link to CSV files with gold standard HLA types](https://github.com/Mangul-Lab-USC/HLA_benchmark)
 
-## Citation
 
-If you use this dataset or code in your work, please cite our study (citation details will be updated once the study is published).
 
-![image](https://github.com/likhitha99/CSCI596/assets/24885960/9186d6d0-cb2f-49c3-b3a6-faadbc7cbea7)
+
