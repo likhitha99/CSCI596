@@ -2,6 +2,8 @@
 
 # HLA Typing Benchmarking Study
 
+![Image Alt Text](https://www.bing.com/th?id=OSK.bfc34f69dc3d74915b3a943ac55afe55&pid=cdx&w=320&h=252&c=7)
+
 ## Overview
 
 This repository contains scripts for running the T1K tool and extracting its output into Excel files as part of a benchmarking study on HLA typing using bulk and single-cell RNA-seq data. The study utilizes publicly available datasets and gold standard HLA types determined through various laboratory methods.
