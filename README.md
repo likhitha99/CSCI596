@@ -42,6 +42,10 @@ Gold standard HLA types were determined via laboratory-based methods summarized 
 
 I am responsible for the T1K tool. The repository contains scripts for running the T1K tool and extracting its output into Excel files. For more details about the T1K tool, please refer to our manuscript: [T1K Manuscript](https://www.biorxiv.org/content/10.1101/2023.05.22.541750v2).
 
+## Computational Expense
+
+We measured the CPU time and RAM usage of each caller for two samples per dataset to assess computational expensiveness (Fig 3a-b). We find great variation in the computational resources necessary to run the tools, with RAM ranging from the order of 100 kB to 100 GB, and CPU time ranging from approximately 10 minutes to 3 hours. While there is often a trade-off between accuracy and computational resources required by each tool, we observe that RNA2HLA yielded the best balance between high accuracy (93.3%) at low computational expense (average 0.36 GB RAM and 6.9 min CPU time), making it suitable for HLA typing with large-scale studies. In contrast, the best accuracy tool, OptiType, requires an average of 14.2 GB RAM and 45.3 min CPU time per sample.
+
 ## Code
 
 All code related to running the T1K tool and extracting results is available in the 'code' directory. Please refer to individual scripts for specific details.
@@ -53,7 +57,3 @@ Results of the benchmarking study will be made available in the 'results' direct
 ## Additional Resources
 
 - [Link to CSV files with gold standard HLA types](https://github.com/Mangul-Lab-USC/HLA_benchmark)
-
-
-
-
