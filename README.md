@@ -8,6 +8,21 @@
 
 This repository contains scripts for running the T1K tool and extracting its output into Excel files as part of a benchmarking study on HLA typing using bulk and single-cell RNA-seq data. The study utilizes publicly available datasets and gold standard HLA types determined through various laboratory methods.
 
+## Specific Objectives
+
+1. Evaluate existing HLA typing tools through a comprehensive benchmarking study, utilizing publicly available datasets.
+2. Measure and compare the computational expense (CPU time and RAM usage) of each HLA typing tool.
+3. Provide insights into the trade-off between accuracy and computational resources for different tools.
+4. Identify and highlight tools that demonstrate an optimal balance for large-scale HLA typing studies.
+
+## Current State of Knowledge/Previous Work
+
+Previous studies have explored various HLA typing tools, each with its own strengths and weaknesses. However, a comprehensive benchmarking study, encompassing both bulk and single-cell RNA-seq data and considering computational expenses, is lacking. This study builds upon existing knowledge to provide a more nuanced understanding of the performance of HLA typing tools.
+
+## Techniques to Be Used
+
+The study utilizes publicly available datasets, including bulk RNA-seq and single-cell RNA-seq data. Tools such as the SRA-Toolkit v2.11.0 are employed for data retrieval. The RNA-seq samples are prepared in three versions to assess different input scenarios. The HLA nomenclature system defined by the World Health Organization is used. Computational expense is measured by evaluating CPU time and RAM usage for each HLA typing tool. The T1K tool, developed for this study, is employed, and its scripts are available in the 'code' directory.
+
 ## Datasets
 
 ### Bulk RNA-Seq Data
