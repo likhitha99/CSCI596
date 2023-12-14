@@ -68,6 +68,8 @@ All code related to running the T1K tool and extracting results is available in 
 ## Results
 
 Results of the benchmarking study will be made available in the 'results' directory once the analysis is complete.
+The accuracy is shown down below
+![Image Alt Text](https://github.com/likhitha99/CSCI596/blob/main/Accuracy.png)
 
 ## Additional Resources
 
